@@ -1,3 +1,4 @@
+#Importing Dataset
 import cv2
 def generate_dataset():
 face_classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml") def face_cropped(img):
