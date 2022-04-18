@@ -1,3 +1,4 @@
+#Training the classifier and save it
 import numpy as np from PIL import Image import os
 import cv2
 def train_classifier (data_dir):
