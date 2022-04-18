@@ -1,3 +1,5 @@
+#Recognize the face if person is authorized or face id present in dataset
+
 import cv2
 import numpy as np from PIL import Image import os
 def darw_boundary(img,classifier,scalefactor,minNeighbors,color,text,clf): gray_image = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
